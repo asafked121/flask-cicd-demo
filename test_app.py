@@ -6,4 +6,3 @@ def test_home():
     assert res.status_code == 200
     assert b"Hello" in res.data
 
-    
